@@ -1,0 +1,10 @@
+rootProject.name = 'java3'
+
+include 'common-dtos'
+
+include 'public-app'
+
+include 'core-api'
+include 'core-rest'
+include 'core-jms'
+include 'core-app'
