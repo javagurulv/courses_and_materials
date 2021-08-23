@@ -1,0 +1,5 @@
+Login: javaguru.presenter@inbox.lv
+Password: JavaGuruPresenter1!ONLINE
+
+Login: javaguru.presenter2@inbox.lv
+Password: JavaGuruPresenter2!ONLINE
