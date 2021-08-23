@@ -1,0 +1,32 @@
+repositories {
+    mavenCentral()
+}
+
+group 'lv.javaguru'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.14
+targetCompatibility = 1.14
+
+compileJava {
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.13.1'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.2.0'
+    testCompile group: 'com.google.guava', name: 'guava', version: '21.0'
+
+    // Mockito
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.6.0'
+
+    // Cucumber
+    testCompile group:'info.cukes', name: 'cucumber-java', version: '1.2.4'
+    testCompile group:'info.cukes', name: 'cucumber-junit', version: '1.2.4'
+
+}
