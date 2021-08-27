@@ -1,0 +1,1001 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Moodle Quiz XHTML Export</title>
+<style type="text/css">
+body {
+     font-family: verdana, helvetica, sans-serif;
+     background-color: #fff;
+     color: #000;
+ }
+ 
+ .question {
+     border: 1px solid #ddd;
+     margin: 5px;
+     padding: 3px;
+ }
+ 
+ .question h3 {
+     font-weight: normal;
+     font-size: 125%;
+ }
+ 
+ .question ul {
+     list-style-type: none;
+ }
+</style>
+</head>
+<body>
+<form action="...REPLACE ME..." method="post">
+
+
+<!-- question: 29720189  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Savienojiet definīciju ar atbilstošo testa līmeni</p></p>
+<ul class="match"><li><p dir="ltr" style="text-align: left;">Kā strādā individuālā koda komponente</p></li><label class="accesshide" for="quest_29720189_0">Atbilde 1</label><select id="quest_29720189_0" class="select custom-select menuquest_29720189_0" name="quest_29720189_0"><option value="Vienības testēšana">Vienības testēšana</option><option value="Sistēmas testēšana">Sistēmas testēšana</option><option value="Integrācijas testēšana">Integrācijas testēšana</option><option value="Pieņemšanas testēšana">Pieņemšanas testēšana</option></select><li><p dir="ltr" style="text-align: left;">Kā koda komponentes strādā viena ar otru</p></li><label class="accesshide" for="quest_29720189_1">Atbilde 2</label><select id="quest_29720189_1" class="select custom-select menuquest_29720189_1" name="quest_29720189_1"><option value="Vienības testēšana">Vienības testēšana</option><option value="Sistēmas testēšana">Sistēmas testēšana</option><option value="Integrācijas testēšana">Integrācijas testēšana</option><option value="Pieņemšanas testēšana">Pieņemšanas testēšana</option></select><li><p dir="ltr" style="text-align: left;">Kā strādā visa sistēma</p></li><label class="accesshide" for="quest_29720189_2">Atbilde 3</label><select id="quest_29720189_2" class="select custom-select menuquest_29720189_2" name="quest_29720189_2"><option value="Vienības testēšana">Vienības testēšana</option><option value="Sistēmas testēšana">Sistēmas testēšana</option><option value="Integrācijas testēšana">Integrācijas testēšana</option><option value="Pieņemšanas testēšana">Pieņemšanas testēšana</option></select><li><p dir="ltr" style="text-align: left;">Vai tas ir tas ko klients ir gaidījis</p></li><label class="accesshide" for="quest_29720189_3">Atbilde 4</label><select id="quest_29720189_3" class="select custom-select menuquest_29720189_3" name="quest_29720189_3"><option value="Vienības testēšana">Vienības testēšana</option><option value="Sistēmas testēšana">Sistēmas testēšana</option><option value="Integrācijas testēšana">Integrācijas testēšana</option><option value="Pieņemšanas testēšana">Pieņemšanas testēšana</option></select></ul></div>
+
+
+
+<!-- question: 29720191  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kurš no komandas parasti darbojas šajā testa līmenī?</p></p>
+<ul class="match"><li><p dir="ltr" style="text-align: left;">Vienības testēšana&nbsp;</p></li><label class="accesshide" for="quest_29720191_0">Atbilde 1</label><select id="quest_29720191_0" class="select custom-select menuquest_29720191_0" name="quest_29720191_0"><option value="Izstrādātājs">Izstrādātājs</option><option value="Manuālais testētājs">Manuālais testētājs</option><option value="Biznesa pārstāvji">Biznesa pārstāvji</option></select><li><p dir="ltr" style="text-align: left;">Sistēmas testēšana</p></li><label class="accesshide" for="quest_29720191_1">Atbilde 2</label><select id="quest_29720191_1" class="select custom-select menuquest_29720191_1" name="quest_29720191_1"><option value="Izstrādātājs">Izstrādātājs</option><option value="Manuālais testētājs">Manuālais testētājs</option><option value="Biznesa pārstāvji">Biznesa pārstāvji</option></select><li><p dir="ltr" style="text-align: left;">Pieņemšanas testēšana</p></li><label class="accesshide" for="quest_29720191_2">Atbilde 3</label><select id="quest_29720191_2" class="select custom-select menuquest_29720191_2" name="quest_29720191_2"><option value="Izstrādātājs">Izstrādātājs</option><option value="Manuālais testētājs">Manuālais testētājs</option><option value="Biznesa pārstāvji">Biznesa pārstāvji</option></select></ul></div>
+
+
+
+<!-- question: 29728785  name: Programmas -->
+<div class="question">
+<h3>Programmas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Savienojiet kādām vajadzībām jūs izmantosiet kādu programmu?</p></p>
+<ul class="match"><li><p dir="ltr" style="text-align: left;">Datu bāzes apstrādei</p></li><label class="accesshide" for="quest_29728785_0">Atbilde 1</label><select id="quest_29728785_0" class="select custom-select menuquest_29728785_0" name="quest_29728785_0"><option value="Linked in">Linked in</option><option value="Oracle">Oracle</option><option value="JIRA">JIRA</option><option value="Confluence">Confluence</option></select><li><p dir="ltr" style="text-align: left;">Darba organizēšanai un prioritāšu pārvaldībai</p></li><label class="accesshide" for="quest_29728785_1">Atbilde 2</label><select id="quest_29728785_1" class="select custom-select menuquest_29728785_1" name="quest_29728785_1"><option value="Linked in">Linked in</option><option value="Oracle">Oracle</option><option value="JIRA">JIRA</option><option value="Confluence">Confluence</option></select><li><p dir="ltr" style="text-align: left;">Piezīmēm par sistēmu, komandas procesiem utt.</p></li><label class="accesshide" for="quest_29728785_2">Atbilde 3</label><select id="quest_29728785_2" class="select custom-select menuquest_29728785_2" name="quest_29728785_2"><option value="Linked in">Linked in</option><option value="Oracle">Oracle</option><option value="JIRA">JIRA</option><option value="Confluence">Confluence</option></select><li>Darba pieredzes uzturēšanai</li><label class="accesshide" for="quest_29728785_3">Atbilde 4</label><select id="quest_29728785_3" class="select custom-select menuquest_29728785_3" name="quest_29728785_3"><option value="Linked in">Linked in</option><option value="Oracle">Oracle</option><option value="JIRA">JIRA</option><option value="Confluence">Confluence</option></select></ul></div>
+
+
+
+<!-- question: 29724089  name: Robežvērtības -->
+<div class="question">
+<h3>Robežvērtības</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"></p><p dir="ltr">Balstoties uz bultiņām savienojiet pareizās definīcijas.&nbsp;</p><p dir="ltr">Līmeņu iedalījums pēc rezultātiem:</p><p dir="ltr"></p><ul><li>Ja rezultāts ir no 0 līdz 100 - <strong>C līmenis</strong>&nbsp;</li><li>Ja rezultāts ir no 101 līdz 1000 - <strong>B</strong><strong style="font-size: 0.9375rem;">&nbsp;līmenis</strong><span style="font-size: 0.9375rem;">&nbsp;</span></li><li>Ja rezultāts ir pāri 1000 -&nbsp;<strong style="font-size: 0.9375rem;">A līmenis</strong><span style="font-size: 0.9375rem;">&nbsp;</span></li></ul><p></p><br><p></p></p>
+<ul class="match"><li><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" width="398" height="93" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p></li><label class="accesshide" for="quest_29724089_0">Atbilde 1</label><select id="quest_29724089_0" class="select custom-select menuquest_29724089_0" name="quest_29724089_0"><option value="Atvērtas robežvērtības">Atvērtas robežvērtības</option><option value="Valīdas robežvērtības">Valīdas robežvērtības</option><option value="Robežvērtības">Robežvērtības</option><option value="Nevalīdas robežvērtības">Nevalīdas robežvērtības</option></select><li><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" width="400" height="89" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p></li><label class="accesshide" for="quest_29724089_1">Atbilde 2</label><select id="quest_29724089_1" class="select custom-select menuquest_29724089_1" name="quest_29724089_1"><option value="Atvērtas robežvērtības">Atvērtas robežvērtības</option><option value="Valīdas robežvērtības">Valīdas robežvērtības</option><option value="Robežvērtības">Robežvērtības</option><option value="Nevalīdas robežvērtības">Nevalīdas robežvērtības</option></select><li><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" width="400" height="92" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p></li><label class="accesshide" for="quest_29724089_2">Atbilde 3</label><select id="quest_29724089_2" class="select custom-select menuquest_29724089_2" name="quest_29724089_2"><option value="Atvērtas robežvērtības">Atvērtas robežvērtības</option><option value="Valīdas robežvērtības">Valīdas robežvērtības</option><option value="Robežvērtības">Robežvērtības</option><option value="Nevalīdas robežvērtības">Nevalīdas robežvērtības</option></select><li><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" width="400" height="90" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p></li><label class="accesshide" for="quest_29724089_3">Atbilde 4</label><select id="quest_29724089_3" class="select custom-select menuquest_29724089_3" name="quest_29724089_3"><option value="Atvērtas robežvērtības">Atvērtas robežvērtības</option><option value="Valīdas robežvērtības">Valīdas robežvērtības</option><option value="Robežvērtības">Robežvērtības</option><option value="Nevalīdas robežvērtības">Nevalīdas robežvērtības</option></select></ul></div>
+
+
+
+<!-- question: 29728936  name: Testa piemēri -->
+<div class="question">
+<h3>Testa piemēri</h3>
+<p class="questiontext">Izvēlies atbilstošo</p>
+<ul class="match"><li><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image.png" alt="" role="presentation"><br></p></li><label class="accesshide" for="quest_29728936_0">Atbilde 1</label><select id="quest_29728936_0" class="select custom-select menuquest_29728936_0" name="quest_29728936_0"><option value="Testa piemērs">Testa piemērs</option><option value="Testa scenārijs">Testa scenārijs</option><option value="Testa plāns">Testa plāns</option></select><li><p dir="ltr" style="text-align: left;"><ul><li><span id="docs-internal-guid-2a1f6d5e-7fff-3b32-c652-cde6ca07449a">Sesija veiksmīgi uzsākta</span><br></li><li><span><span id="docs-internal-guid-0cb23b7f-7fff-993f-4c24-f11f5bef0291">Sesija neveiksmīgi uzsākta - bojāta karte</span><br></span></li><li><span><span>Sesija neveiksmīgi uzsākta - nepareizi ievietota karte</span></span></li><li><span><span>Sesija neveiksmīgi uzsākta - nepareizs PIN<br></span></span></li><li><span><span><span id="docs-internal-guid-28735a07-7fff-cf5c-bde3-aecd843e0dbe">Papildus transakcija</span></span></span></li></ul><br></p></li><label class="accesshide" for="quest_29728936_1">Atbilde 2</label><select id="quest_29728936_1" class="select custom-select menuquest_29728936_1" name="quest_29728936_1"><option value="Testa piemērs">Testa piemērs</option><option value="Testa scenārijs">Testa scenārijs</option><option value="Testa plāns">Testa plāns</option></select><li><p dir="ltr" style="text-align: left;"></p><p dir="ltr"></p><p dir="ltr"><br></p><div dir="ltr" align="left"><table><colgroup><col width="92"><col width="238"><col width="271"></colgroup><tbody><tr><td><p dir="ltr"><strong>Solis</strong></p></td><td><p dir="ltr"><strong>Apraksts</strong></p></td><td><p dir="ltr"><strong>Sagaidāmais rezultāts</strong></p></td></tr><tr><td><p dir="ltr"><span>1.</span></p></td><td><p dir="ltr"><span>Lietotājs pareizi ievieto karti bankomātā</span></p></td><td><p dir="ltr"><span>Karte ir pieņemta un tiek parādīts PIN ievadīšanas logs</span></p></td></tr><tr><td><p dir="ltr"><span>2.</span></p></td><td><p dir="ltr"><span>Lietotājs ievada pareizu PIN kodu</span></p></td><td><p dir="ltr"><span>PIN kods tiek pieņemts un lietotājam tiek piedāvāts izvēlēties transakciju</span></p></td></tr></tbody></table></div><p></p><p></p></li><label class="accesshide" for="quest_29728936_2">Atbilde 3</label><select id="quest_29728936_2" class="select custom-select menuquest_29728936_2" name="quest_29728936_2"><option value="Testa piemērs">Testa piemērs</option><option value="Testa scenārijs">Testa scenārijs</option><option value="Testa plāns">Testa plāns</option></select></ul></div>
+
+
+
+<!-- question: 29724106  name: Testa plāns -->
+<div class="question">
+<h3>Testa plāns</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Savienot aprakstu ar atbilstošo definīciju.</p></p>
+<ul class="match"><li><p dir="ltr" style="text-align: left;">Testa scenāriju kopsavilkums/pārskats</p></li><label class="accesshide" for="quest_29724106_0">Atbilde 1</label><select id="quest_29724106_0" class="select custom-select menuquest_29724106_0" name="quest_29724106_0"><option value="Testa piemērs">Testa piemērs</option><option value="Testa scenāriji">Testa scenāriji</option><option value="Testa plāns">Testa plāns</option></select><li><p dir="ltr" style="text-align: left;">Saraksts/kopsavilkums ar funkcionalitāti ko testēsim</p></li><label class="accesshide" for="quest_29724106_1">Atbilde 2</label><select id="quest_29724106_1" class="select custom-select menuquest_29724106_1" name="quest_29724106_1"><option value="Testa piemērs">Testa piemērs</option><option value="Testa scenāriji">Testa scenāriji</option><option value="Testa plāns">Testa plāns</option></select><li><p dir="ltr" style="text-align: left;">Testa scenāriju paskaidrojošs apraksts ar veicamajām darbībām un sagaidāmo rezultātu&nbsp;</p></li><label class="accesshide" for="quest_29724106_2">Atbilde 3</label><select id="quest_29724106_2" class="select custom-select menuquest_29724106_2" name="quest_29724106_2"><option value="Testa piemērs">Testa piemērs</option><option value="Testa scenāriji">Testa scenāriji</option><option value="Testa plāns">Testa plāns</option></select></ul></div>
+
+
+
+<!-- question: 29728783  name: API -->
+<div class="question">
+<h3>API</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Funkcija, kas nogādā sagaidāmo informāciju/darbību programmatūrai (kā viesmīlis)</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728783" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;API&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">API</p></li>
+  <li><input name="quest_29728783" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;HTTP&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">HTTP</p></li>
+  <li><input name="quest_29728783" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;SQL&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">SQL</p></li>
+  <li><input name="quest_29728783" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;SCRUM&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">SCRUM</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728776  name: Datubāze -->
+<div class="question">
+<h3>Datubāze</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kāda veida tabulu relācija ir zemāk aprakstītā?</p><p dir="ltr" style="text-align: left;">1. tabula satur skolēnus</p><p dir="ltr" style="text-align: left;">2. tabula satur klases</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728776" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Viens pret vairākiem&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Viens pret vairākiem</p></li>
+  <li><input name="quest_29728776" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Viens pret viens&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Viens pret viens</p></li>
+  <li><input name="quest_29728776" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vairāki pret vairākiem&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vairāki pret vairākiem</p></li>
+  <li><input name="quest_29728776" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Nav relācijas&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Nav relācijas</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728775  name: Datubāze -->
+<div class="question">
+<h3>Datubāze</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kā sauc unikālu tabulas identifikatoru?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728775" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Primārā atslēga&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Primārā atslēga</p></li>
+  <li><input name="quest_29728775" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Ārējā atslēga&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Ārējā atslēga</p></li>
+  <li><input name="quest_29728775" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Iekšējā atslēga&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Iekšējā atslēga</p></li>
+  <li><input name="quest_29728775" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sekundārā atslēga&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sekundārā atslēga</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728772  name: Datubāze -->
+<div class="question">
+<h3>Datubāze</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kas ir datubāze?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728772" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Strukturizēts datu apkopojums, ko var viegli apstrādāt&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Strukturizēts datu apkopojums, ko var viegli apstrādāt</p></li>
+  <li><input name="quest_29728772" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vieta, kur lietotājs ievada savus datus&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vieta, kur lietotājs ievada savus datus</p></li>
+  <li><input name="quest_29728772" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Datu struktūras apraksts&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Datu struktūras apraksts</p></li>
+  <li><input name="quest_29728772" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;GUI&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">GUI&nbsp;</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728773  name: Datubāzes -->
+<div class="question">
+<h3>Datubāzes</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Datubāze, kas ir veidota tabulu veidā</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728773" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Relāciju datu bāze&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Relāciju datu bāze</p></li>
+  <li><input name="quest_29728773" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Ne-relāciju datu bāze&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Ne-relāciju datu bāze</p></li>
+  <li><input name="quest_29728773" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Savienotā datu bāze&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Savienotā datu bāze</p></li>
+  <li><input name="quest_29728773" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Statiskā datu bāze&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Statiskā datu bāze</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730067  name: Definīcijas -->
+<div class="question">
+<h3>Definīcijas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kāda veida testēšana ir aprakstīta?</p><p dir="ltr" style="text-align: left;"><br></p><p dir="ltr" style="text-align: left;">Aplikācija vai programmatūra tiek testēta uz mobilās ierīces</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730067" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobilā testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobilā testēšana</p></li>
+  <li><input name="quest_29730067" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pētnieciskā testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pētnieciskā testēšana</p></li>
+  <li><input name="quest_29730067" type="radio" value="Papildus testēšana" />Papildus testēšana</li>
+  <li><input name="quest_29730067" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Funkcionālā testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Funkcionālā testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730061  name: Definīcijas -->
+<div class="question">
+<h3>Definīcijas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Strukturēta programmēšanas valoda, kuru izmanto, lai komunicētu ar saglabātajiem datiem relāciju datu bāzē</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730061" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;SQL&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">SQL</p></li>
+  <li><input name="quest_29730061" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;HTML&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">HTML</p></li>
+  <li><input name="quest_29730061" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;CSS&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">CSS</p></li>
+  <li><input name="quest_29730061" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;HTTP&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">HTTP</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730060  name: Definīcijas -->
+<div class="question">
+<h3>Definīcijas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Programmatūras prasību dokuments, kas satur nefunkcionālās un funkcionālās prasības</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730060" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Specifikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Specifikācija</p></li>
+  <li><input name="quest_29730060" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Scenārijs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Scenārijs</p></li>
+  <li><input name="quest_29730060" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa piemērs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa piemērs</p></li>
+  <li><input name="quest_29730060" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Datu bāze&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Datu bāze</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720193  name: Dzīves cikls -->
+<div class="question">
+<h3>Dzīves cikls</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kurš programmatūras dzīves cikla modelis apraksta sekojošo:</p><p dir="ltr" style="text-align: left;"><ol><li><span style="font-size: 0.9375rem;">Sagatavojam prasības visam projektam</span></li><li><span style="font-size: 0.9375rem;">Izstrādājam kodu saskaņā ar prasībām</span></li><li><span style="font-size: 0.9375rem;">Testējam sagatavoto kodu saskaņā ar prasībām</span></li></ol></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720193" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Ūdenskrituma modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Ūdenskrituma modelis</p></li>
+  <li><input name="quest_29720193" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;V modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">V modelis</p></li>
+  <li><input name="quest_29720193" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Scrum modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Scrum modelis</p></li>
+  <li><input name="quest_29720193" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Kanban modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Kanban modelis</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720194  name: Dzīves cikls -->
+<div class="question">
+<h3>Dzīves cikls</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><p dir="ltr">Kurš programmatūras dzīves cikla modelis apraksta sekojošo:</p><p dir="ltr"></p><ol><li>Sagatavojam prasības idejas līmenī visam projektam</li><li>Izstrādātāju komanda kopā ar biznesa pārstāvi sagatavo prasības projekta sākuma posmam</li><li>Inkrementāli to izstrādā</li><li>Piegādā pirmo projekta daļu</li><li>Iegūst atsauksmes no lietotāja&nbsp;</li><li>No iegūtajām atsauksmēm sāk plānot nākamos soļus</li></ol><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720194" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Scrum modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Scrum modelis</p></li>
+  <li><input name="quest_29720194" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Ūdenskrituma modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Ūdenskrituma modelis</p></li>
+  <li><input name="quest_29720194" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;V modelis&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">V modelis</p></li>
+  <li><input name="quest_29720194" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Kanban&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Kanban</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728782  name: HTTPS -->
+<div class="question">
+<h3>HTTPS</h3>
+<p class="questiontext">Lai droši veiktu maksājumu interneta veikalā, ko meklēsiet mājas lapas adresē?</p>
+<ul class="multichoice">
+  <li><input name="quest_29728782" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;https&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">https</p></li>
+  <li><input name="quest_29728782" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;http&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">http</p></li>
+  <li><input name="quest_29728782" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;www&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">www</p></li>
+  <li><input name="quest_29728782" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;.lv&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">.lv</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724121  name: Kļūdas -->
+<div class="question">
+<h3>Kļūdas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kas ir sistēmas defekts?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724121" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pareiza darbība, kas dod nepareizu rezultātu&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pareiza darbība, kas dod nepareizu rezultātu</p></li>
+  <li><input name="quest_29724121" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Nepareizs rezultāts lietotāja kļūdainas darbības rezultātā&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Nepareizs rezultāts lietotāja kļūdainas darbības rezultātā&nbsp;</p></li>
+  <li><input name="quest_29724121" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Trūkstoša funkcionalitāte&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Trūkstoša funkcionalitāte&nbsp;</p></li>
+  <li><input name="quest_29724121" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Rezultāts, kas nesakrīt ar konkurentu produktu&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Rezultāts, kas nesakrīt ar konkurentu produktu</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724134  name: Kļūdas -->
+<div class="question">
+<h3>Kļūdas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kurš no šiem <strong>NAV </strong>kļūdu cēlonis?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724134" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Slikta komunikācija&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Slikta komunikācija&nbsp;</p></li>
+  <li><input name="quest_29724134" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Nekorekta dokumentācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Nekorekta dokumentācija</p></li>
+  <li><input name="quest_29724134" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Laika spiediens&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Laika spiediens</p></li>
+  <li><input name="quest_29724134" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sabalansēta mājas un darba dzīve&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sabalansēta mājas un darba dzīve</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725369  name: Kļūdas pieraksts -->
+<div class="question">
+<h3>Kļūdas pieraksts</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Noteikt problēmas kļūdas pierakstā</p><p dir="ltr" style="text-align: left;"><google-sheets-html-origin><table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" border="1"><colgroup><col width="100"><col width="328"></colgroup><tbody><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Virsraksts&quot;}">Virsraksts</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kļūda mājas lapā&quot;}">Kļūda mājas lapā</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}">ID</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID1&quot;}">ID1</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Priority&quot;}">Priority</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Augsta&quot;}">Augsta</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Severity&quot;}">Severity</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Augsta&quot;}">Augsta</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Environment&quot;}">Environment</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tests&quot;}">Tests</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Description&quot;}">Description</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Soļi atkārtošanai:\n1. atver mājas lapu www.test.lv\n2. Ievada pareizu lietotājvārdu un paroli\n3. Apstiprina\n\nRezultāts: \nKļūdas paziņojums un pierakstīšanās nav veiksmīga\n\nSagaidāmais:\nPierakstīšanās procesam jābūt veiksmīgam\n&quot;}">Soļi atkārtošanai:<br>1. atver mājas lapu www.test.lv<br>2. Ievada pareizu lietotājvārdu un paroli<br>3. Apstiprina<br><br>Rezultāts: <br>Kļūdas paziņojums un pierakstīšanās nav veiksmīga<br><br>Sagaidāmais:<br>Pierakstīšanās procesam jābūt veiksmīgam<br></td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Attachment&quot;}">Attachment</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ERROR&quot;}">ERROR</td></tr></tbody></table>
+
+</google-sheets-html-origin><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725369" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Virsraksts skaidri neapraksta kļūdu&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Virsraksts skaidri neapraksta kļūdu</p></li>
+  <li><input name="quest_29725369" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Prioritāte nav pareiza&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Prioritāte nav pareiza</p></li>
+  <li><input name="quest_29725369" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Soļi kļūdas atkārtošanai nav skaidri&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Soļi kļūdas atkārtošanai nav skaidri</p></li>
+  <li><input name="quest_29725369" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sagaidāmais rezultāts nav skaidrs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sagaidāmais rezultāts nav skaidrs</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725371  name: Kļūdas pieraksts -->
+<div class="question">
+<h3>Kļūdas pieraksts</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Noteikt problēmu kļūdas pierakstā</p><p dir="ltr" style="text-align: left;"><google-sheets-html-origin><table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" border="1"><colgroup><col width="100"><col width="328"></colgroup><tbody><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Virsraksts&quot;}">Virsraksts</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Jaunam lietotājam nav iespējams piereģistrēties mājas lapā&quot;}"><div><div>Jaunam lietotājam nav iespējams piereģistrēties mājas lapā</div></div></td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}">ID</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID2&quot;}">ID2</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Priority&quot;}">Priority</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kritiska&quot;}">Kritiska</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Severity&quot;}">Severity</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kritiska&quot;}">Kritiska</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Environment&quot;}">Environment</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tests&quot;}">Tests</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Description&quot;}">Description</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Rezultāts: \nKļūdas paziņojums un reģistrēšanās nav veiksmīga\n\nSagaidāmais:\nReģīstrēšanās procesam jābūt veiksmīgam\n&quot;}">Rezultāts: <br>Kļūdas paziņojums un reģistrēšanās nav veiksmīga<br><br>Sagaidāmais:<br>Reģistrēšanās procesam jābūt veiksmīgam<br></td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Attachment&quot;}">Attachment</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ERROR&quot;}">ERROR</td></tr></tbody></table>
+
+</google-sheets-html-origin><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725371" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Virsraksts skaidri neapraksta kļūdu&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Virsraksts skaidri neapraksta kļūdu<br></p></li>
+  <li><input name="quest_29725371" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Prioritāte nav pareiza&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Prioritāte nav pareiza<br></p></li>
+  <li><input name="quest_29725371" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Soļi kļūdas atkārtošanai nav skaidri&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Soļi kļūdas atkārtošanai nav skaidri<br></p></li>
+  <li><input name="quest_29725371" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sagaidāmais rezultāts nav skaidrs&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sagaidāmais rezultāts nav skaidrs<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728781  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testētājam ir pieeja kodam, tā struktūrai un dizainam. Kāda veida testēšana ir iespējama?<br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728781" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Baltā kaste&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Baltā kaste<br></p></li>
+  <li><input name="quest_29728781" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Melnā kaste&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Melnā kaste<br></p></li>
+  <li><input name="quest_29728781" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Caurredzamā kaste&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Caurredzamā kaste<br></p></li>
+  <li><input name="quest_29728781" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pelēkā kaste&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pelēkā kaste<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720182  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testējot durvis pārliecināmies, ka adrese ir norādīta arī Braila rakstā. Kāda tipa testēšana tā ir?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720182" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieejamības testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieejamības testēšana</p></li>
+  <li><input name="quest_29720182" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Drošības testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Drošības testēšana</p></li>
+  <li><input name="quest_29720182" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Veiktspējas testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Veiktspējas testēšana</p></li>
+  <li><input name="quest_29720182" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dūmu testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dūmu testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720179  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testējot durvju funkcionalitāti pārbaudām vai pie tām var piekļūt persona ar bērnu ratiņiem. Kāda tipa testēšana tā ir?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720179" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Lietojamības testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Lietojamības testēšana</p></li>
+  <li><input name="quest_29720179" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Veiktspējas testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Veiktspējas testēšana</p></li>
+  <li><input name="quest_29720179" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Drošības testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Drošības testēšana</p></li>
+  <li><input name="quest_29720179" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Slodzes testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Slodzes testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720178  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testi kurus veicam, lai pārliecinātos ka vecā funkcionalitāte strādā kā sagaidīts</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720178" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Regresija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Regresija</p></li>
+  <li><input name="quest_29720178" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Saprāta testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Saprāta testēšana</p></li>
+  <li><input name="quest_29720178" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Papildus testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Papildus testēšana</p></li>
+  <li><input name="quest_29720178" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Izpētes&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Izpētes&nbsp;</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720177  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kā manuālais testētājs Jūs pārbaudāt, ka durvis var atvērt un aizvērt. Kāda tipa testēšana tā ir?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720177" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Funkcionālā&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Funkcionālā&nbsp;</p></li>
+  <li><input name="quest_29720177" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Nefunkcionālā&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Nefunkcionālā&nbsp;</p></li>
+  <li><input name="quest_29720177" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Veiktspējas&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Veiktspējas&nbsp;</p></li>
+  <li><input name="quest_29720177" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Lietojamības&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Lietojamības</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720176  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testētājam nav pieeja kodam, tā struktūrai un dizainam. Kāda veida testēšana ir iespējama?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29720176" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Baltā kaste&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Baltā kaste<br></p></li>
+  <li><input name="quest_29720176" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Melnā kaste&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Melnā kaste</p></li>
+  <li><input name="quest_29720176" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Caurredzamā kaste&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Caurredzamā kaste</p></li>
+  <li><input name="quest_29720176" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pelēkā kaste&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pelēkā kaste</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725612  name: Mobilā testēšana -->
+<div class="question">
+<h3>Mobilā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Rīks, kas nodrošina mobilo tīmekļa lapu testēšanu, simulējot iekārtas vides īpašības</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725612" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Simulators&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Simulators</p></li>
+  <li><input name="quest_29725612" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Emulators&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Emulators</p></li>
+  <li><input name="quest_29725612" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Monitors&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Monitors</p></li>
+  <li><input name="quest_29725612" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Projektors&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Projektors</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725611  name: Mobilā testēšana -->
+<div class="question">
+<h3>Mobilā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Rīks, kas nodrošina mobilo aplikāciju testēšanu, simulējot ierīces fiziskās un vides īpašības</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725611" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Emulators&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Emulators</p></li>
+  <li><input name="quest_29725611" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Simulators&amp;nbsp;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Simulators&nbsp;</p></li>
+  <li><input name="quest_29725611" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Projektors&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Projektors</p></li>
+  <li><input name="quest_29725611" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Monitors&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Monitors</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725608  name: Mobilā testēšana -->
+<div class="question">
+<h3>Mobilā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Aplikācija, kas ir konteineris darbībām ar web lapu ir...</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725608" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Hibrīdaplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Hibrīdaplikācija</p></li>
+  <li><input name="quest_29725608" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dzimtā aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dzimtā aplikācija</p></li>
+  <li><input name="quest_29725608" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Tīmekļa aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Tīmekļa aplikācija</p></li>
+  <li><input name="quest_29725608" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pielāgotā aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pielāgotā aplikācija</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725580  name: Mobilā testēšana -->
+<div class="question">
+<h3>Mobilā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Mājas lapa kas ir pielāgota darbam ar mobilo ierīci ir...</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725580" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Tīmekļa aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Tīmekļa aplikācija</p></li>
+  <li><input name="quest_29725580" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dzimtā aplikacija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dzimtā aplikacija</p></li>
+  <li><input name="quest_29725580" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Hibrīdaplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Hibrīdaplikācija</p></li>
+  <li><input name="quest_29725580" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pielāgotā aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pielāgotā aplikācija</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725579  name: Mobilā testēšana -->
+<div class="question">
+<h3>Mobilā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kas ir galvenā atšķirība starp mobilo un darbavirsmas testēšanu?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725579" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobila testēšana notiek uz dažādām ierīcēm, operētājsistēmas, ekrāna izmēriem&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobila testēšana notiek uz dažādām ierīcēm, operētājsistēmas, ekrāna izmēriem</p></li>
+  <li><input name="quest_29725579" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobilo testēšanu var veikt no mājām&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobilo testēšanu var veikt no mājām</p></li>
+  <li><input name="quest_29725579" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobilajai testēšanai neveic regresijas testus&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobilajai testēšanai neveic regresijas testus</p></li>
+  <li><input name="quest_29725579" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobilajai testēšanai neveic lietojamības testus&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobilajai testēšanai neveic lietojamības testus</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725603  name: Mobilā testēšana -->
+<div class="question">
+<h3>Mobilā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Aplikācija, kas izveidota tieši Apple telefonam ir...</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725603" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dzimtā aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dzimtā aplikācija</p></li>
+  <li><input name="quest_29725603" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Hibrīdaplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Hibrīdaplikācija</p></li>
+  <li><input name="quest_29725603" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pielāgotā aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pielāgotā aplikācija</p></li>
+  <li><input name="quest_29725603" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Tīmekļa aplikācija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Tīmekļa aplikācija</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725555  name: Mobila testēšana -->
+<div class="question">
+<h3>Mobila testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kāda ir galvenā atšķirība mobilajai un darbvirsmas testēšanai?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725555" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobila testēšana tiek veikta uz dažādām iekārtām, operētājsistēmām ekrāna izmēriem&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobila testēšana tiek veikta uz dažādām iekārtām, operētājsistēmām ekrāna izmēriem</p></li>
+  <li><input name="quest_29725555" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobilo testēšanu var veikt mājās&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobilo testēšanu var veikt mājās<br></p></li>
+  <li><input name="quest_29725555" type="radio" value="Mobilajai testēšanai regresijas testi nav nepieciešami&amp;nbsp;" />Mobilajai testēšanai regresijas testi nav nepieciešami&nbsp;</li>
+  <li><input name="quest_29725555" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Mobilajai testēšanai netiek veikti lietojamības testi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Mobilajai testēšanai netiek veikti lietojamības testi</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724142  name: Nosaki kļūdas Prioritāti -->
+<div class="question">
+<h3>Nosaki kļūdas Prioritāti</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Nosaki kļūdas <strong>Prioritāti </strong>(no<span>&nbsp;</span>Wikipēdijas izstrādes komandas perspektīvas)</p><p dir="ltr" style="text-align: left;"><span>Wikipedija darbojas lēni (lapas ielāde ~50sek)</span></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724142" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Kritisks&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Kritisks</p></li>
+  <li><input name="quest_29724142" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Augsts&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Augsts</p></li>
+  <li><input name="quest_29724142" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vidējs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vidējs</p></li>
+  <li><input name="quest_29724142" type="radio" value="Zems" />Zems</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724146  name: Nosaki prioritāti -->
+<div class="question">
+<h3>Nosaki prioritāti</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Nosaki kļūdas&nbsp;<strong>P</strong><span><strong>rioritāti&nbsp;</strong><span style="font-size: 0.9375rem;">(no</span><span style="font-size: 0.9375rem;">&nbsp;</span><span style="font-size: 0.9375rem;">Facebook izstrādes komandas perspektīvas)</span></span><br></p><p dir="ltr" style="text-align: left;">Nav iespējams ielogoties Facebook&nbsp;</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724146" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Kritisks&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Kritisks</p></li>
+  <li><input name="quest_29724146" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Augsts&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Augsts</p></li>
+  <li><input name="quest_29724146" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vidējs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vidējs</p></li>
+  <li><input name="quest_29724146" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Zems&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Zems<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725614  name: Pētnieciskā testēšanā -->
+<div class="question">
+<h3>Pētnieciskā testēšanā</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kas ir pētnieciskās testēšanas lielākais trūkums?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725614" type="radio" value="Rezultāti atkarīgi no testētāja pieredzes" />Rezultāti atkarīgi no testētāja pieredzes</li>
+  <li><input name="quest_29725614" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Izmantojams tikai kad ir zināmas precīzas prasības&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Izmantojams tikai kad ir zināmas precīzas prasības</p></li>
+  <li><input name="quest_29725614" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Jaunie darbinieki šo metodi nevar izmantot&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Jaunie darbinieki šo metodi nevar izmantot</p></li>
+  <li><input name="quest_29725614" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Nevar atrast kļūdas&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Nevar atrast kļūdas</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725613  name: Pētnieciskā testēšana -->
+<div class="question">
+<h3>Pētnieciskā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kad pētniecisko testēšanu <strong>NE</strong>izmantosim?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725613" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Jaunais darbinieks iepazīstas ar programatūru&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Jaunais darbinieks iepazīstas ar programatūru</p></li>
+  <li><input name="quest_29725613" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Izpildot regresijas testus&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Izpildot regresijas testus</p></li>
+  <li><input name="quest_29725613" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Veicot programatūras novērtējumu&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Veicot programatūras novērtējumu</p></li>
+  <li><input name="quest_29725613" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vēlamies noskaidrot, ko testēt tālāk&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vēlamies noskaidrot, ko testēt tālāk</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728812  name: Prioritāte -->
+<div class="question">
+<h3>Prioritāte</h3>
+<p class="questiontext">Uz ko skatāmies kad nosakām prioritāti?<br></p>
+<ul class="multichoice">
+  <li><input name="quest_29728812" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Biznesa ietekmi (cik ātri labot)&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Biznesa ietekmi (cik ātri labot)</p></li>
+  <li><input name="quest_29728812" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sistēmas ietekmi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sistēmas ietekmi</p></li>
+  <li><input name="quest_29728812" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Darba noslodzi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Darba noslodzi</p></li>
+  <li><input name="quest_29728812" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Citu kļūdu esamību&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Citu kļūdu esamību</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724107  name: Programmas nosegums -->
+<div class="question">
+<h3>Programmas nosegums</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><span id="docs-internal-guid-549c1577-7fff-8992-1f9f-ada2ee76c884"></span></p><p dir="ltr" style="">Kurš <strong>NAV </strong>programmas bāzēts noseguma tips</p><p></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724107" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;span id=&quot;docs-internal-guid-0a81bfc6-7fff-36e6-2960-751ce7385dbb&quot;&gt;Funkcionālais nosegums&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;"><span id="docs-internal-guid-0a81bfc6-7fff-36e6-2960-751ce7385dbb">Funkcionālais nosegums</span><br></p></li>
+  <li><input name="quest_29724107" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;span id=&quot;docs-internal-guid-043746ac-7fff-6574-6fd2-d7b385ce3b93&quot;&gt;Zara nosegums &lt;/span&gt;&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;"><span id="docs-internal-guid-043746ac-7fff-6574-6fd2-d7b385ce3b93">Zara nosegums </span><br></p></li>
+  <li><input name="quest_29724107" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;span id=&quot;docs-internal-guid-214fee22-7fff-ad07-2dca-26615a7ee179&quot;&gt;Nosacījuma nosegums&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;"><span id="docs-internal-guid-214fee22-7fff-ad07-2dca-26615a7ee179">Nosacījuma nosegums</span><br></p></li>
+  <li><input name="quest_29724107" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;span id=&quot;docs-internal-guid-214fee22-7fff-ad07-2dca-26615a7ee179&quot;&gt;Prasību nosegums&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;"><span id="docs-internal-guid-214fee22-7fff-ad07-2dca-26615a7ee179">Prasību nosegums</span><br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724087  name: Robežas -->
+<div class="question">
+<h3>Robežas</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Nosakiet robežvērtības:</p><p dir="ltr" style="text-align: left;"></p><ul><li>Ja bilance ir no $0.00 līdz $99.99 <strong>- 3%</strong></li><li>Ja bilance ir no $100.00 līdz $1000.00 <strong>- 5%</strong><br></li><li>Ja bilance ir virs $1000.00 <strong>- 7%</strong></li></ul></p>
+<ul class="multichoice">
+  <li><input name="quest_29724087" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;-0.01, 0.00, 99.99, 100.00, 1000.00, 1000.01&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">-0.01, 0.00, 99.99, 100.00, 1000.00, 1000.01</p></li>
+  <li><input name="quest_29724087" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&amp;nbsp;1, 99.99, 100, 1000, 1001&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">&nbsp;1, 99.99, 100, 1000, 1001<br></p></li>
+  <li><input name="quest_29724087" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&amp;nbsp;0.00, 99.99, 100.00, 1000.00, 1000&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">&nbsp;0.00, 99.99, 100.00, 1000.00, 1000<br></p></li>
+  <li><input name="quest_29724087" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;-50, -0.01, 0.00, 45.50, 99.99, 100.00, 555.55, 1000.00, 1000.01, 1500.00&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">-50, -0.01, 0.00, 45.50, 99.99, 100.00, 555.55, 1000.00, 1000.01, 1500.00<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728814  name: Severity -->
+<div class="question">
+<h3>Severity</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Uz ko skatīsimies, kad nosakām smaguma pakāpi?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728814" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Biznesa ietekmi (cik ātri labot)&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Biznesa ietekmi (cik ātri labot)<br></p></li>
+  <li><input name="quest_29728814" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sistēmas ietekmi&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sistēmas ietekmi<br></p></li>
+  <li><input name="quest_29728814" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Darba noslodzi&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Darba noslodzi<br></p></li>
+  <li><input name="quest_29728814" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Citu kļūdu esamību&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Citu kļūdu esamību<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725363  name: Smaguma pakāpe -->
+<div class="question">
+<h3>Smaguma pakāpe</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Nosaki kļūdas <strong>smaguma pakāpi&nbsp;</strong><span style="font-size: 0.9375rem;">(no</span><span style="font-size: 0.9375rem;">&nbsp;</span><span style="font-size: 0.9375rem;">lapas izstrādes komandas perspektīvas)</span></p><p dir="ltr" style="text-align: left;">Domes mājas lapas banneru izkārtojums netiek pareizi attēlots uz mobilās ierīces</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725363" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Kritiska&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Kritiska</p></li>
+  <li><input name="quest_29725363" type="radio" value="Augsta" />Augsta</li>
+  <li><input name="quest_29725363" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Zema&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Zema<br></p></li>
+  <li><input name="quest_29725363" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Bloķējoša&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Bloķējoša</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725364  name: Smaguma pakāpe -->
+<div class="question">
+<h3>Smaguma pakāpe</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Nosaki kļūdas <strong>smaguma pakāpi</strong>&nbsp;<span>(no</span><span>&nbsp;</span>lapas izstrādes komandas perspektīvas)</p><p dir="ltr" style="text-align: left;">Saite uz īpašajiem piedāvājumiem nestrādā</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29725364" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Bloķējoša&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Bloķējoša</p></li>
+  <li><input name="quest_29725364" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Augsta&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Augsta</p></li>
+  <li><input name="quest_29725364" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Kritiska&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Kritiska</p></li>
+  <li><input name="quest_29725364" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Zema&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Zema<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728778  name: SQL -->
+<div class="question">
+<h3>SQL</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kurš no šiem vaicājumiem atgriezīs pareizos datus?</p><p dir="ltr" style="text-align: left;">Atgriezt pēdējās 4 izdotās filmas</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728778" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;SELECT * FROM movies&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;ORDER BY year DESC&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;LIMIT 4;&lt;/p&gt;" /><p dir="ltr">SELECT * FROM movies</p><p dir="ltr">ORDER BY year DESC</p><p dir="ltr">LIMIT 4;</p></li>
+  <li><input name="quest_29728778" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;SELECT * FROM movies&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;ORDER BY year ASC&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;LIMIT 4;&lt;/p&gt;" /><p dir="ltr">SELECT * FROM movies</p><p dir="ltr">ORDER BY year ASC</p><p dir="ltr">LIMIT 4;</p></li>
+  <li><input name="quest_29728778" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;SELECT * FROM movies&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;ORDER BY year DESC&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;OFFSET 4;&lt;/p&gt;" /><p dir="ltr">SELECT * FROM movies</p><p dir="ltr">ORDER BY year DESC</p><p dir="ltr">OFFSET 4;</p></li>
+  <li><input name="quest_29728778" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;SELECT DISTINCT title FROM movies&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;ORDER BY year DESC&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;OFFSET 4;&lt;/p&gt;" /><p dir="ltr">SELECT DISTINCT title FROM movies</p><p dir="ltr">ORDER BY year DESC</p><p dir="ltr">OFFSET 4;</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728780  name: SQL -->
+<div class="question">
+<h3>SQL</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Kurš vaicājuma pieraksts ir stilistiski pareizs?</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29728780" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;SELECT title, director&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;FROM movies&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;WHERE director = &quot;John Lasseter&quot;;&lt;/p&gt;" /><p dir="ltr">SELECT title, director&nbsp;</p><p dir="ltr">FROM movies&nbsp;</p><p dir="ltr">WHERE director = "John Lasseter";</p></li>
+  <li><input name="quest_29728780" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;SELECT title, director FROM movies WHERE director = &quot;John Lasseter&quot;;&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">SELECT title, director FROM movies WHERE director = "John Lasseter";<br></p></li>
+  <li><input name="quest_29728780" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;Select title, director&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;From movies&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Where director Like &quot;John Lasseter&quot;;&lt;/p&gt;" /><p dir="ltr">Select title, director&nbsp;</p><p dir="ltr">From movies&nbsp;</p><p dir="ltr">Where director Like "John Lasseter";</p></li>
+  <li><input name="quest_29728780" type="radio" value="&lt;p dir=&quot;ltr&quot;&gt;SELECT title, director&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;FROM movies&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;WHERE director LIKE &quot;John Lasseter&quot;;&lt;/p&gt;" /><p dir="ltr">SELECT title, director&nbsp;</p><p dir="ltr">FROM movies&nbsp;</p><p dir="ltr">WHERE director LIKE "John Lasseter";</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730072  name: Testa līmeņi -->
+<div class="question">
+<h3>Testa līmeņi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><p dir="ltr">Testa komandai ir jāpārliecinās, ka nevar veikt darbības ar bankas kontu pēc nepareiza PIN ievades</p><p dir="ltr">Kāds testa līmenis tiks izmantots?&nbsp;</p><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730072" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vienības testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vienības testēšana<br></p></li>
+  <li><input name="quest_29730072" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Integrācijas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Integrācijas testēšana<br></p></li>
+  <li><input name="quest_29730072" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieņemšanas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieņemšanas testēšana<br></p></li>
+  <li><input name="quest_29730072" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sistēmas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sistēmas testēšana<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730071  name: Testa līmeņi -->
+<div class="question">
+<h3>Testa līmeņi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Pēc ilgstošas izstrādes ATM projekts ir pabeigts, visas atrastās kļūdas ir salabotas un izstrādes komanda ir izpildījusi visus specifikācijas kritērijus, lai ATM iekārta pilnība darbotos sadarbībā ar banku.&nbsp;</p><p dir="ltr" style="text-align: left;">Kāds testa līmenis tiks izmantots, lai pārliecinātos, ka iekārta var tikt piegādāta klientam?&nbsp;<br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730071" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Papildus testēšana vairs nav nepieciešama&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Papildus testēšana vairs nav nepieciešama<br></p></li>
+  <li><input name="quest_29730071" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Integrācijas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Integrācijas testēšana<br></p></li>
+  <li><input name="quest_29730071" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieņemšanas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieņemšanas testēšana<br></p></li>
+  <li><input name="quest_29730071" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sistēmas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sistēmas testēšana<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730070  name: Testa līmeņi -->
+<div class="question">
+<h3>Testa līmeņi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testējot ATM ir izstrādātājs vēlas pārliecināties, ka PIN kods no iekārtas veiksmīgi tiek nosūtīt uz bankas sistēmu un tiek atgriezts rezultāts</p><p dir="ltr" style="text-align: left;">Kāds testa līmenis tiek izmantots?&nbsp;</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730070" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vienības testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vienības testēšana</p></li>
+  <li><input name="quest_29730070" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Integrācijas testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Integrācijas testēšana</p></li>
+  <li><input name="quest_29730070" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieņemšanas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieņemšanas testēšana<br></p></li>
+  <li><input name="quest_29730070" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sistēmas testēšana&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sistēmas testēšana<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724128  name: Testa plāns -->
+<div class="question">
+<h3>Testa plāns</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Norādīt atbilstošo definīciju<br></p><p dir="ltr" style="text-align: left;"><strong><br></strong></p><div dir="ltr" align="left"><table><colgroup><col width="92"><col width="238"><col width="271"></colgroup><tbody><tr><td><p dir="ltr"><strong>Solis</strong></p></td><td><p dir="ltr"><strong>Apraksts</strong></p></td><td><p dir="ltr"><strong>Sagaidāmais rezultāts</strong></p></td></tr><tr><td><p dir="ltr"><span style="font-weight: normal;">1.</span></p></td><td><p dir="ltr"><span style="font-weight: normal;">Lietotājs pareizi ievieto karti bankomātā</span></p></td><td><p dir="ltr"><span style="font-weight: normal;">Karte ir pieņemta un tiek parādīts PIN ievadīšanas logs</span></p></td></tr><tr><td><p dir="ltr"><span style="font-weight: normal;">2.</span></p></td><td><p dir="ltr"><span style="font-weight: normal;">Lietotājs ievada pareizu PIN kodu</span></p></td><td><p dir="ltr"><span style="font-weight: normal;">PIN kods tiek pieņemts un lietotājam tiek piedāvāts izvēlēties transakciju</span></p></td></tr></tbody></table></div><br><p></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724128" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Funkcionālā shēma&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Funkcionālā shēma</p></li>
+  <li><input name="quest_29724128" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa plāns&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa plāns</p></li>
+  <li><input name="quest_29724128" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa piemērs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa piemērs</p></li>
+  <li><input name="quest_29724128" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa scenārijs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa scenārijs</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724125  name: Testa plāns -->
+<div class="question">
+<h3>Testa plāns</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"></p><span style="font-size: 0.9375rem;">Norādīt atbilstošo definīciju<br></span><br><ul><li><span id="docs-internal-guid-2a1f6d5e-7fff-3b32-c652-cde6ca07449a">Sesija veiksmīgi uzsākta</span><br></li><li><span><span id="docs-internal-guid-0cb23b7f-7fff-993f-4c24-f11f5bef0291">Sesija neveiksmīgi uzsākta - bojāta karte</span><br></span></li><li><span><span>Sesija neveiksmīgi uzsākta - nepareizi ievietota karte</span></span></li><li><span><span>Sesija neveiksmīgi uzsākta - nepareizs PIN<br></span></span></li><li><span><span><span id="docs-internal-guid-28735a07-7fff-cf5c-bde3-aecd843e0dbe" style="">Papildus transakcija</span><br></span></span></li></ul><p></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724125" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa plāns&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa plāns</p></li>
+  <li><input name="quest_29724125" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa scenārijs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa scenārijs</p></li>
+  <li><input name="quest_29724125" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa piemērs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa piemērs</p></li>
+  <li><input name="quest_29724125" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Funkcionālā shēma&lt;br&gt;&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Funkcionālā shēma<br></p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724122  name: Testa plāns -->
+<div class="question">
+<h3>Testa plāns</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Norādīt atbilstošo definīciju</p><p dir="ltr" style="text-align: left;"><img src="https://estudijas.lu.lv/pluginfile.php/1084378/question/questiontext/preview/1084378/qformat_xhtml/29724122/29724122/image.png" alt="" role="presentation"><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29724122" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa plāns&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa plāns</p></li>
+  <li><input name="quest_29724122" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa scenārijs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa scenārijs</p></li>
+  <li><input name="quest_29724122" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Testa piemērs&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Testa piemērs</p></li>
+  <li><input name="quest_29724122" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Funkcionālā shēma&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Funkcionālā shēma</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730074  name: Testa tipi -->
+<div class="question">
+<h3>Testa tipi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Jau eksistējošai funkcionalitātei tiek saņemts funkcionalitātes papildinājuma pieprasījumus. Pēc jauno izmaiņu izveides testa komandai jāpārliecinās, ka jau eksistējošā funkcionalitāte nav mainījusies.</p><p dir="ltr" style="text-align: left;">Kāds testa tips tiek izmantots?&nbsp;<br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730074" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Regresija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Regresija</p></li>
+  <li><input name="quest_29730074" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Saprāta testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Saprāta testēšana</p></li>
+  <li><input name="quest_29730074" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dūmu testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dūmu testēšana</p></li>
+  <li><input name="quest_29730074" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Izpētes testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Izpētes testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730073  name: Testa tipi -->
+<div class="question">
+<h3>Testa tipi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Testa komanda pārliecinās, ka grāmatu var ievietot grozā, izņemt un rediģēt.</span></p><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Kāds testa tips tiek izmantots?&nbsp;</span><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730073" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Saprāta testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Saprāta testēšana</p></li>
+  <li><input name="quest_29730073" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Regresija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Regresija</p></li>
+  <li><input name="quest_29730073" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;No beigām līdz beigām testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">No beigām līdz beigām testēšana</p></li>
+  <li><input name="quest_29730073" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Izpētes testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Izpētes testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730075  name: Testa tipi -->
+<div class="question">
+<h3>Testa tipi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testējot grāmatas iegādi testa komandai ir jāpārliecinās, ka ir iespējams izveidot pasūtījumu un to apmaksāt caur interneta banku.&nbsp;</p><p dir="ltr" style="text-align: left;">Kāds testa tips tiek izmantots?&nbsp;<br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730075" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Saprāta testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Saprāta testēšana</p></li>
+  <li><input name="quest_29730075" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dūmu testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dūmu testēšana</p></li>
+  <li><input name="quest_29730075" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;No beigām līdz beigām&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">No beigām līdz beigām</p></li>
+  <li><input name="quest_29730075" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Papildus testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Papildus testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730076  name: Testa tipi -->
+<div class="question">
+<h3>Testa tipi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Pilnībā tiek atjaunotas sistēmas datu bāzes un instalācijas pēc visu datu pazaudēšanas</span></p><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Kāds testa tips tiek izmantots?&nbsp;</span><br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730076" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Atteices un atjaunošanas testi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Atteices un atjaunošanas testi</p></li>
+  <li><input name="quest_29730076" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieejamības testi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieejamības testi</p></li>
+  <li><input name="quest_29730076" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Drošības testi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Drošības testi</p></li>
+  <li><input name="quest_29730076" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Stresa testi&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Stresa testi</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730077  name: Testa tipi -->
+<div class="question">
+<h3>Testa tipi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Sistēmu vienlaicīgi izmanto 10 000 lietotāju</p><p dir="ltr" style="text-align: left;">Kāds testa tips tiek izmantots?&nbsp;<br></p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730077" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Slodzes tests&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Slodzes tests</p></li>
+  <li><input name="quest_29730077" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Drošības tests&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Drošības tests</p></li>
+  <li><input name="quest_29730077" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Lietojamības tests&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Lietojamības tests</p></li>
+  <li><input name="quest_29730077" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieejamības tests&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieejamības tests</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730069  name: Testēšanas līmeņi -->
+<div class="question">
+<h3>Testēšanas līmeņi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Izstrādātājs pārliecinās, ka e-pasta laukam, ko viņš ir pievienojis formai, darbojas formāta pārbaude - nav iespējams saglabāt lauku, ja e-pasta adrese nesatur @ simbolu.</p><p dir="ltr" style="text-align: left;">Kāds testa līmenis tiek izmantots?&nbsp;</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730069" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Vienības testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Vienības testēšana</p></li>
+  <li><input name="quest_29730069" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Integrācijas testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Integrācijas testēšana</p></li>
+  <li><input name="quest_29730069" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Pieņemšanas testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Pieņemšanas testēšana</p></li>
+  <li><input name="quest_29730069" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Sistēmas testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Sistēmas testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730068  name: Testēšanas tipi -->
+<div class="question">
+<h3>Testēšanas tipi</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Nepieciešams virspusēji pārliecināties, ka programmatūras pamatfunkcijas darbojas.</p><p dir="ltr" style="text-align: left;">Kāds testa tips tiek izmantots?&nbsp;</p></p>
+<ul class="multichoice">
+  <li><input name="quest_29730068" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Dūmu testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Dūmu testēšana</p></li>
+  <li><input name="quest_29730068" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Saprāta testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Saprāta testēšana</p></li>
+  <li><input name="quest_29730068" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Regresija&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Regresija</p></li>
+  <li><input name="quest_29730068" type="radio" value="&lt;p dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;Izpētes testēšana&lt;/p&gt;" /><p dir="ltr" style="text-align: left;">Izpētes testēšana</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 29662738  name: 1.nodarbībā -->
+<div class="question">
+<h3>1.nodarbībā</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Vai Jūs bijāt 1.nodarbībā?</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29662738" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29662738" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730059  name: Bug free -->
+<div class="question">
+<h3>Bug free</h3>
+<p class="questiontext">Produkcijā atrasta kļūda ir testētāja vaina/atbildība</p>
+<ul class="truefalse">
+  <li><input name="quest_29730059" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29730059" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29728784  name: Kļūdas -->
+<div class="question">
+<h3>Kļūdas</h3>
+<p class="questiontext">Ja ir atrasta kļūda, tad ir liela iespēja atrast vēl kļūdu tajā pašā programmas apgabalā.</p>
+<ul class="truefalse">
+  <li><input name="quest_29728784" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29728784" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29720192  name: Manuālā testēšana -->
+<div class="question">
+<h3>Manuālā testēšana</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Vai testētājs iesaistās izstrādes procesā tikai tad, kad kods jau ir sagatavots?</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29720192" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29720192" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29729822  name: Procedūras -->
+<div class="question">
+<h3>Procedūras</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testētājs ir rīkojies pareizi.</p><p dir="ltr" style="text-align: left;">Testējot pasūtījuma izveides funkcionalitāti, tiek atrasta kļūda un reģistrēts kļūdas pieteikums. Pēc kļūdas salabošanas testētājs pārliecinās, ka kļūda ir novērsta, izmantojot pasūtījumu, kas tika izmantots, lai sagatavotu kļūdu.&nbsp;&nbsp;</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29729822" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29729822" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29730058  name: Process -->
+<div class="question">
+<h3>Process</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><p dir="ltr">Testētājs ir rīkojies pareizi.</p><p dir="ltr">Izstrādātājs informē testa komandu, ka izmaiņas ir tik mazas, ka testēt nav nepieciešams. Testētāji pieņem pieteikumu bez testa.</p><br><br></p></p>
+<ul class="truefalse">
+  <li><input name="quest_29730058" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29730058" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29729819  name: Process -->
+<div class="question">
+<h3>Process</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testētājs ir rīkojies pareizi.</p><p dir="ltr" style="text-align: left;">Vadošais izstrādātājs atgriež kļūdas pieteikumu bez labojumiem, jo sistēma strādā loģiski, lai gan tas nav saskaņā ar dokumentāciju. Testētājs vēršas pie produkta īpašnieka, lai precizētu vai tiešām dokumentācija ir neprecīza.&nbsp;</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29729819" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29729819" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725365  name: Smaguma pakāpe -->
+<div class="question">
+<h3>Smaguma pakāpe</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Smaguma pakāpe un prioritāte var atšķirties identiskām kļūdām atkarībā no pielietojuma un funkcionalitātes</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29725365" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29725365" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29725367  name: Smaguma pakāpe -->
+<div class="question">
+<h3>Smaguma pakāpe</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Smaguma pakāpe un prioritāte tiek uzstādīta kļūdai tās reģistrēšanas laikā un vēlāk netiek mainīta.</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29725367" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29725367" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724090  name: Specifikācija -->
+<div class="question">
+<h3>Specifikācija</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Testētājs ir rīkojies pareizi zemāk aprakstītajā situācijā.</p><p dir="ltr" style="text-align: left;">Testēšanas laikā pamanām, ka mūsu programmā filtrēšana netiek attēlota tā pat kā citos konkurentu risinājumos, kurus personiski zināt, ka ir ērtāk lietot. Balstoties uz šo novērojumu tiek izveidots kļūdas pieteikums.</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29724090" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29724090" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724109  name: Vai šo automatizēsim -->
+<div class="question">
+<h3>Vai šo automatizēsim</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><span style="font-size: 15px;">Vai šo situāciju automatizēsim?</span><br></p><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Nepieciešams pārbaudīt kā sistēma reaģēs uz 10 000 lietotājiem&nbsp;</span><br></p></p>
+<ul class="truefalse">
+  <li><input name="quest_29724109" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29724109" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724113  name: Vai šo automatizēsim -->
+<div class="question">
+<h3>Vai šo automatizēsim</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;">Vai šo situāciju automatizēsim?<br></p><p dir="ltr" style="text-align: left;">Kategoriju sadalījumu interneta veikalam</p></p>
+<ul class="truefalse">
+  <li><input name="quest_29724113" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29724113" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724114  name: Vai šo automatizēsim -->
+<div class="question">
+<h3>Vai šo automatizēsim</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Vai automatizēsim zemāk aprakstītā rīka darbību?<br></span></p><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Nepieciešama vienreizēja migrācija starp sistēmām. Tiek izveidots rīks, kas nodrošina datu pārnesi.</span></p><br><br><p></p></p>
+<ul class="truefalse">
+  <li><input name="quest_29724114" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29724114" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<!-- question: 29724108  name: Vai šo situāciju automatizēsim -->
+<div class="question">
+<h3>Vai šo situāciju automatizēsim</h3>
+<p class="questiontext"><p dir="ltr" style="text-align: left;"><span style="font-size: 15px;">Vai šo situāciju automatizēsim?</span><br></p><p dir="ltr" style="text-align: left;"><span style="font-size: 0.9375rem;">Pamata funkcionalitāte</span><br></p></p>
+<ul class="truefalse">
+  <li><input name="quest_29724108" type="radio" value="Patiesi" />Patiesi</li>
+  <li><input name="quest_29724108" type="radio" value="Aplami" />Aplami</li>
+</ul>
+</div>
+
+
+
+<p class="submit">
+  <input type="submit" />
+</p>
+</form>
+</body>
+</html>
