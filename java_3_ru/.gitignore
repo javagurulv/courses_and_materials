@@ -1,6 +1,0 @@
-#java specific
-*.class
-
-#IDEA ignore personal project settings
-.idea/
-*.iml

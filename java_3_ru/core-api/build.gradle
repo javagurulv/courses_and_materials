@@ -1,7 +1,0 @@
-apply from: "${rootDir}/gradle/java.gradle"
-
-project(":core-api") {
-    dependencies {
-        compile project(":common-dtos")
-    }
-}
