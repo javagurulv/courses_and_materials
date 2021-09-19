@@ -1,10 +1,14 @@
 package lv.javaguru.java2.library.core.services.validators;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.verifyNoMoreInteractions;
+import static org.mockito.Mockito.when;
 
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import lv.javaguru.java2.library.core.requests.Ordering;
 import lv.javaguru.java2.library.core.requests.Paging;
@@ -13,54 +17,53 @@ import lv.javaguru.java2.library.core.responses.CoreError;
 
 public class SearchBooksRequestValidatorTest {
 
-	private SearchBooksRequestValidator validator = new SearchBooksRequestValidator();
+	private SearchBooksRequestFieldValidator fieldValidator;
+	private OrderingValidator orderingValidator;
+	private PagingValidator pagingValidator;
+	private SearchBooksRequestValidator validator;
+
+	@Before
+	public void init() {
+		fieldValidator = Mockito.mock(SearchBooksRequestFieldValidator.class);
+		orderingValidator = Mockito.mock(OrderingValidator.class);
+		pagingValidator = Mockito.mock(PagingValidator.class);
+		validator = new SearchBooksRequestValidator(fieldValidator, orderingValidator, pagingValidator);
+	}
 
 	@Test
-	public void shouldNotReturnErrorsWhenTitleIsProvided() {
+	public void shouldNotReturnErrorsWhenFieldValidatorReturnNoErrors() {
 		SearchBooksRequest request = new SearchBooksRequest("Title", null);
+		when(fieldValidator.validate(request)).thenReturn(List.of());
 		List<CoreError> errors = validator.validate(request);
 		assertEquals(errors.size(), 0);
 	}
 
 	@Test
-	public void shouldNotReturnErrorsWhenAuthorIsProvided() {
+	public void shouldReturnErrorsWhenFieldValidatorReturnErrors() {
 		SearchBooksRequest request = new SearchBooksRequest(null, "Author");
+		CoreError error = new CoreError("title", "Must not be empty!");
+		when(fieldValidator.validate(request)).thenReturn(List.of(error));
 		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 0);
-	}
-
-	@Test
-	public void shouldNotReturnErrorsWhenTitleAndAuthorIsProvided() {
-		SearchBooksRequest request = new SearchBooksRequest("Title", "Author");
-		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 0);
-	}
-
-	@Test
-	public void shouldReturnErrorWhenSearchFieldsAreEmpty() {
-		SearchBooksRequest request = new SearchBooksRequest(null, null);
-		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 2);
+		assertEquals(errors.size(), 1);
 		assertEquals(errors.get(0).getField(), "title");
 		assertEquals(errors.get(0).getMessage(), "Must not be empty!");
-		assertEquals(errors.get(1).getField(), "author");
-		assertEquals(errors.get(1).getMessage(), "Must not be empty!");
 	}
 
 	@Test
-	public void shouldReturnErrorWhenOrderDirectionAreEmpty() {
-		Ordering ordering = new Ordering("title", null);
+	public void shouldNotReturnErrorsWhenOrderingValidatorReturnNoErrors() {
+		Ordering ordering = new Ordering("title", "ASC");
 		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", ordering);
+		when(orderingValidator.validate(ordering)).thenReturn(List.of());
 		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 1);
-		assertEquals(errors.get(0).getField(), "orderDirection");
-		assertEquals(errors.get(0).getMessage(), "Must not be empty!");
+		assertEquals(errors.size(), 0);
 	}
 
 	@Test
-	public void shouldReturnErrorWhenOrderByAreEmpty() {
+	public void shouldReturnErrorsWhenOrderingValidatorReturnErrors() {
 		Ordering ordering = new Ordering(null, "ASCENDING");
 		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", ordering);
+		CoreError error = new CoreError("orderBy", "Must not be empty!");
+		when(orderingValidator.validate(ordering)).thenReturn(List.of(error));
 		List<CoreError> errors = validator.validate(request);
 		assertEquals(errors.size(), 1);
 		assertEquals(errors.get(0).getField(), "orderBy");
@@ -68,49 +71,27 @@ public class SearchBooksRequestValidatorTest {
 	}
 
 	@Test
-	public void shouldReturnErrorWhenOrderByContainNotValidValue() {
-		Ordering ordering = new Ordering("notValidValue", "ASCENDING");
-		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", ordering);
-		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 1);
-		assertEquals(errors.get(0).getField(), "orderBy");
-		assertEquals(errors.get(0).getMessage(), "Must contain 'author' or 'title' only!");
+	public void shouldNotInvokeOrderingValidatorWhenNoOrderingObjectPresentInRequest() {
+		SearchBooksRequest request = new SearchBooksRequest("Title", "Author");
+		validator.validate(request);
+		verifyNoMoreInteractions(orderingValidator);
 	}
 
 	@Test
-	public void shouldReturnErrorWhenOrderDirectionContainNotValidValue() {
-		Ordering ordering = new Ordering("title", "notValidValue");
-		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", ordering);
-		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 1);
-		assertEquals(errors.get(0).getField(), "orderDirection");
-		assertEquals(errors.get(0).getMessage(), "Must contain 'ASCENDING' or 'DESCENDING' only!");
-	}
-
-	@Test
-	public void shouldReturnErrorWhenPageNumberContainNotValidValue() {
-		Paging paging = new Paging(0, 1);
+	public void shouldNotReturnErrorsWhenPagingValidatorReturnNoErrors() {
+		Paging paging = new Paging(10, 10);
 		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", paging);
+		when(pagingValidator.validate(paging)).thenReturn(List.of());
 		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 1);
-		assertEquals(errors.get(0).getField(), "pageNumber");
-		assertEquals(errors.get(0).getMessage(), "Must be greater then 0!");
+		assertEquals(errors.size(), 0);
 	}
 
 	@Test
-	public void shouldReturnErrorWhenPageSizeContainNotValidValue() {
-		Paging paging = new Paging(1, 0);
+	public void shouldReturnErrorsWhenPagingValidatorReturnErrors() {
+		Paging paging = new Paging(null, 10);
 		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", paging);
-		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 1);
-		assertEquals(errors.get(0).getField(), "pageSize");
-		assertEquals(errors.get(0).getMessage(), "Must be greater then 0!");
-	}
-
-	@Test
-	public void shouldReturnErrorWhenPageNumberAreEmpty() {
-		Paging paging = new Paging(null, 1);
-		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", paging);
+		CoreError error = new CoreError("pageNumber", "Must not be empty!");
+		when(pagingValidator.validate(paging)).thenReturn(List.of(error));
 		List<CoreError> errors = validator.validate(request);
 		assertEquals(errors.size(), 1);
 		assertEquals(errors.get(0).getField(), "pageNumber");
@@ -118,13 +99,10 @@ public class SearchBooksRequestValidatorTest {
 	}
 
 	@Test
-	public void shouldReturnErrorWhenPageSizeAreEmpty() {
-		Paging paging = new Paging(1, null);
-		SearchBooksRequest request = new SearchBooksRequest("Title", "Author", paging);
-		List<CoreError> errors = validator.validate(request);
-		assertEquals(errors.size(), 1);
-		assertEquals(errors.get(0).getField(), "pageSize");
-		assertEquals(errors.get(0).getMessage(), "Must not be empty!");
+	public void shouldNotInvokePagingValidatorWhenNoPagingObjectPresentInRequest() {
+		SearchBooksRequest request = new SearchBooksRequest("Title", "Author");
+		validator.validate(request);
+		verifyNoMoreInteractions(pagingValidator);
 	}
 
 }

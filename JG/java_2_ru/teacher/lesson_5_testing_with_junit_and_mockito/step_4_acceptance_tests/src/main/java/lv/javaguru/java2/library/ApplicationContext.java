@@ -15,7 +15,10 @@ import lv.javaguru.java2.library.core.services.GetAllBooksService;
 import lv.javaguru.java2.library.core.services.RemoveBookService;
 import lv.javaguru.java2.library.core.services.SearchBooksService;
 import lv.javaguru.java2.library.core.services.validators.AddBookRequestValidator;
+import lv.javaguru.java2.library.core.services.validators.OrderingValidator;
+import lv.javaguru.java2.library.core.services.validators.PagingValidator;
 import lv.javaguru.java2.library.core.services.validators.RemoveBookRequestValidator;
+import lv.javaguru.java2.library.core.services.validators.SearchBooksRequestFieldValidator;
 import lv.javaguru.java2.library.core.services.validators.SearchBooksRequestValidator;
 
 public class ApplicationContext {
@@ -27,7 +30,15 @@ public class ApplicationContext {
 
 		beans.put(AddBookRequestValidator.class, new AddBookRequestValidator());
 		beans.put(RemoveBookRequestValidator.class, new RemoveBookRequestValidator());
-		beans.put(SearchBooksRequestValidator.class, new SearchBooksRequestValidator());
+
+		beans.put(SearchBooksRequestFieldValidator.class, new SearchBooksRequestFieldValidator());
+		beans.put(OrderingValidator.class, new OrderingValidator());
+		beans.put(PagingValidator.class, new PagingValidator());
+		beans.put(SearchBooksRequestValidator.class, new SearchBooksRequestValidator(
+				getBean(SearchBooksRequestFieldValidator.class),
+				getBean(OrderingValidator.class),
+				getBean(PagingValidator.class)
+		));
 
 		beans.put(AddBookService.class, new AddBookService(
 				getBean(Database.class),
