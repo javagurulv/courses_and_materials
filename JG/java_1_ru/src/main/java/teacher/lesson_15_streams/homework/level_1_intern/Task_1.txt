@@ -48,5 +48,5 @@ class FruitStorage {
 
 В классе FruitStorage создайте метод для реализации этого требования.
 
-Создайте класс FruitStorageTest и напишите юнит тест
+Создайте класс FruitStorageTest и напишите тест,
 опираясь на данные из FruitStorage.getAllApples().

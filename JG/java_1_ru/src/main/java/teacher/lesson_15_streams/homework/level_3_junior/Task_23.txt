@@ -4,6 +4,6 @@
 
 Реализацию этого метода напишите с использованием Stream API.
 
-В классе TransactionAnalysisServiceTest напишите юнит тест для созданного вами метода.
+В классе TransactionAnalysisServiceTest напишите тест для созданного вами метода.
 
 Для тестирования используйте тестовые данные из класса TransactionTestData.

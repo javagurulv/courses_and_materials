@@ -3,4 +3,4 @@
 создайте класс ThreadSafeAtomicIdGenerator.
 
 Докажите правильность работы используя тот же код, что вы разработали
-для демонстрации не коректной работы класса NotThreadSafeIdGenerator.
+для демонстрации не корректной работы класса NotThreadSafeIdGenerator.

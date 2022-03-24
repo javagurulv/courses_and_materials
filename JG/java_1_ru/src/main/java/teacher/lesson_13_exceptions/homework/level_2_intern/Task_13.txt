@@ -23,4 +23,4 @@ class BankApiImpl implements BankApi {
 
 }
 
-Создайте класс BankApiImplTest и напишите тесты для метода findByUid().
+Создайте класс BankApiImplTest, и напишите тесты для метода findByUid().

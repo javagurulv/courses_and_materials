@@ -19,7 +19,7 @@ class FruitStorage {
 
 }
 
-Напишите юнит тесты на метод findApples() в которых
+Напишите тесты на метод findApples() в которых
 протестируйте работу метода с разными предикатами:
 - findApples(...., new AppleGreenColorPredicate());
 - findApples(...., new AppleRedColorPredicate());

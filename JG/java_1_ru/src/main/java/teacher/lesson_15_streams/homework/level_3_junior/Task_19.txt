@@ -11,7 +11,7 @@ class TransactionAnalysisService {
 и находит все транзакции совершённые в 2011 году. Реализацию
 этого метода напишите с использованием Stream API.
 
-Создайте класс TransactionAnalysisServiceTest и напишите юнит тест
+Создайте класс TransactionAnalysisServiceTest, и напишите тест
 для созданного вами метода. Для тестирования используйте следующие тестовые данные:
 
 class TransactionTestData {

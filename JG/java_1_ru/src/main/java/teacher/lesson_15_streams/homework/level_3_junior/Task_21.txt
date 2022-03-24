@@ -35,4 +35,4 @@ List<Transaction> transactions2011 = findTransactionsByYear(transactions, 2011);
 List<Transaction> transactions2012 = findTransactionsByYear(transactions, 2012);
 List<Transaction> transactions2013 = findTransactionsByYear(transactions, 2013);
 
-С помощью юнит тестов докажите, что наш новый метод работает правильно.
+С помощью тестов докажите, что наш новый метод работает правильно.

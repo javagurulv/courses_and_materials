@@ -47,4 +47,4 @@ List<String> traderNamesFromCambridge = findTraderNamesFromCity(transactions, "C
 List<String> traderNamesFromLondon = findTraderNamesFromCity(transactions, "London");
 List<String> traderNamesFromMilan = findTraderNamesFromCity(transactions, "Milan");
 
-С помощью юнит тестов докажите, что наш новый метод работает правильно.
+С помощью тестов докажите, что наш новый метод работает правильно.

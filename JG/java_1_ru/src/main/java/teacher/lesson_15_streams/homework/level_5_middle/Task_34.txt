@@ -31,4 +31,4 @@ boolean cambridgeBased = isAnyTraderBasedOnCity(transactions, "Cambridge");
 boolean londonBased = isAnyTraderBasedOnCity(transactions, "London");
 boolean milanBased = isAnyTraderBasedOnCity(transactions, "Milan");
 
-С помощью юнит тестов докажите, что наш новый метод работает правильно.
+С помощью тестов докажите, что наш новый метод работает правильно.

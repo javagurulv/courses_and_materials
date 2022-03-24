@@ -12,4 +12,4 @@ class JavaStarLoginServiceImpl {
 }
 
 Создать интерфейс для данного класса под названием JavaStarLoginService.
-Сделать так, чтобы класс JavaStarLoginServiceImpl имплементировал созданный вами интерфейс.
+Сделать так, чтобы класс JavaStarLoginServiceImpl реализовывал созданный вами интерфейс.

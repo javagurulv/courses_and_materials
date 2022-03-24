@@ -8,6 +8,6 @@
 Для объединения имён трейдеров в строку воспользуйтесь
 Collectors.joining(",").
 
-В классе TransactionAnalysisServiceTest напишите юнит тест для созданного вами метода.
+В классе TransactionAnalysisServiceTest напишите тест для созданного вами метода.
 
 Для тестирования используйте тестовые данные из класса TransactionTestData.

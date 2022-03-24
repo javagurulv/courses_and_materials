@@ -1,4 +1,4 @@
-Дан класс класс:
+Дан класс:
 
 class RandomNumberList {
 

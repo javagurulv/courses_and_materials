@@ -16,7 +16,7 @@ class AppleRedColorPredicate implements ApplePredicate {
     }
 }
 
-- тяжелых яблок ( > 150 г.)
+- тяжелых яблок (> 150 г.)
 
 class AppleHeavyWeightPredicate implements ApplePredicate {
     public boolean test (Apple apple) {

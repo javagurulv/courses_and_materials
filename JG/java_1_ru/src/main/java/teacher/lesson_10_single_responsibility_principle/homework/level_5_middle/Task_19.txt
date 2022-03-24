@@ -16,4 +16,4 @@ class FraudRule1 extends FraudRule {
 
 }
 
-Создайте класс FraudRule1Test и напишите юнит тесты для класса FraudRule1!
+Создайте класс FraudRule1Test и напишите тесты для класса FraudRule1!

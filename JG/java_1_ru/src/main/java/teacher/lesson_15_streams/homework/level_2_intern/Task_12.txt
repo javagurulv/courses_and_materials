@@ -1,4 +1,4 @@
-Создайте реализацию ApplePredicate для поиска тяжёлых зелёный яблок.
+Создайте реализацию ApplePredicate для поиска тяжёлых зелёных яблок.
 
 class AppleGreenAndHeavyWeightPredicate implements ApplePredicate {
     public boolean test (Apple apple) {
