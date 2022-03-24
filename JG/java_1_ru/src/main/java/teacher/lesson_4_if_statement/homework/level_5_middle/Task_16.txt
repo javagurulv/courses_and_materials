@@ -17,7 +17,7 @@
 в отдельном классе LightColorDetector:
 
 class LightColorDetector {
-​
+
   public String detect(int wavelength) {
     //TODO
   }
