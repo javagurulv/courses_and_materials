@@ -1,0 +1,130 @@
+WARNING: Код ниже требует улучшений. Местами он похож на
+новогоднюю ёлку (if -> if -> if). Подумайте и предложите
+варианты как можно улучшить этот код. Попробуйте реализовать
+ваши предложения создав CreditCardV1, CreditCardV2 и так далее.
+Сравните полученные решения с оригиналом и выберете лучшее решение.
+
+class CreditCard {
+
+    String cardNumber;
+    String pinCode;
+    int balance;
+    int creditLimit;
+    int loanAmount;
+
+    boolean isPinCodeOK(String pinCode) {
+        return pinCode.equals(this.pinCode);
+    }
+
+    boolean isInDebt() {
+        return this.loanAmount > 0;
+    }
+
+    void deposit(String pinCode, int amount) {
+        if (!isPinCodeOK(pinCode)) {
+            System.out.println("PIN incorrect! Deposit declined.");
+        }
+        if (isPinCodeOK(pinCode)) {
+            if (isInDebt()) {
+                if (amount >= this.loanAmount) {           // isTransactionFullyCoveringDebt(amount)... then some sum needs to be allocated to balance
+                    int depositToLoanAmount = this.loanAmount;
+                    this.loanAmount -= depositToLoanAmount;
+                    int depositToBalance = amount - depositToLoanAmount;
+                    this.balance += depositToBalance;         // this.balance += (amount - depositToLoanAmount)
+                    System.out.println("Successfully deposited " + depositToLoanAmount + " into loan amount and " + depositToBalance + " into balance. Current loan amount is " + this.loanAmount + " and balance is " + this.balance + ".");
+                } else { // otherwise just for loan repayment
+                    this.loanAmount -= amount;
+                    System.out.println("Successfully deposited " + amount + " into loan amount. Current loan amount is " + this.loanAmount + " and balance is " + this.balance + ".");
+                }
+            } else if (this.loanAmount == 0) { // alternatively !isInDebt()... but need some checks that loanAmount can't go below 0
+                this.balance += amount;
+                System.out.println("Successfully deposited " + amount + " into balance. Current balance is " + this.balance + ".");
+            }
+        }
+    }
+
+    void withdraw(String pinCode, int amount) {
+        if (!isPinCodeOK(pinCode)) {
+            System.out.println("PIN incorrect! Withdrawal declined.");
+        }
+        if (isPinCodeOK(pinCode)){
+            if (this.balance >= amount) {       // isEnoughBalanceForTransaction(amount) ...
+                this.balance -= amount;
+                System.out.println("Successfully withdrawn " + amount + " from balance. Current balance is " + this.balance + ".");
+            } else {
+                int withdrawFromBalance = this.balance;                     // may be redundant, left for info messages
+                int withdrawFromLoanAmount = amount - withdrawFromBalance;
+                if (this.creditLimit >= (this.loanAmount + withdrawFromLoanAmount)) {  // isEnoughCreditLimitForTransaction... something
+                    this.balance -= withdrawFromBalance;
+                    this.loanAmount += withdrawFromLoanAmount;
+                    System.out.println("Successfully withdrawn " + amount + ": " + withdrawFromBalance + " from balance and " + withdrawFromLoanAmount + " from loan amount. Current loan amount is " + this.loanAmount + " and balance is " + this.balance + ".");
+                } else if (this.creditLimit < (this.loanAmount + withdrawFromLoanAmount)) {
+                    System.out.println("Not enough credit limit (" + this.creditLimit + ") for withdrawal of " + withdrawFromLoanAmount +  ". Loan amount is " + this.loanAmount + ", operation declined!");
+                }
+
+            }
+        }
+    }
+
+    CreditCard(String cardNumber, String pinCode) {
+        this.cardNumber = cardNumber;
+        this.pinCode = pinCode;
+        this.balance = 0;
+        this.loanAmount = 0;
+        this.creditLimit = 0;
+    }
+
+    void setCreditLimit(int newCreditLimit) {
+        this.creditLimit = newCreditLimit;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public int getCreditLimit() {
+        return creditLimit;
+    }
+
+    public int getLoanAmount() {
+        return loanAmount;
+    }
+}
+
+
+Напомню саму задачу:
+
+Необходимо разработать класс "кредитная карта" CreditCard
+с учетом инкапсуляции, который обладает следующими характеристиками:
+
+Свойства
+-Номер карты
+-Пин-код карты
+-Баланс
+-Кредитный лимит
+-Задолженность по кредиту
+
+
+Методы
+
+-Зачисление средств на карту ("deposit")
+-Снятие средств с карты ("withdraw")
+
+При создании карты нужно указывать ее номер и пин код.
+Начальный баланс и задолженность по кредиту равны 0.
+Кредитный лимит можно менять после создания карты.
+
+Требования к снятию средств:
+- При снятии средств с карты необходимо указывать пин-код и желаемую сумму;
+- Если пин-коды не совпадают, операция по снятию денег должна быть отклонена;
+- Деньги снимаются с карточного баланса. В случае, если их не хватает, остаток суммы нужно брать за счет задолженности по кредиту;
+- Если сумма задолженности превышает кредитный лимит, операция по снятию денег должна быть отклонена;
+
+Требования к зачислению средств:
+- При зачислении средств на карту необходимо указывать пин-код и желаемую сумму;
+- Если пин-коды не совпадают, операция по зачислению денег должна быть отклонена;
+- В первую очередь зачисление покрывает задолженность по кредиту;
+- Если задолженность по кредиту равна 0, то остаток средств зачисляется в счет баланса;
+
+Написать тестовые сценарии для класса CreditCard в классе CreditCardTest.
+Все тестовые сценарии должны отрабатывать без ошибок.

@@ -1,0 +1,79 @@
+WARNING: При переопределении методов из родительского класса
+очень желательно ставить аннотацию @Override. Она явно показывает,
+что метод является переопределением метода из родительского класса.
+@Override не является обязательной, без неё тоже все будет компилироваться.
+@Override помогает справиться с проблемой если например в новой версии
+JDK или используемой библиотеки исчез метод, который вы переопределяли
+в своём коде. В таком случае при наличии @Override компилятор выдаст
+ошибку на стадии компиляции кода.
+
+abstract class Shape {
+
+    private String title;
+
+    Shape(String title) {
+        this.title = title;
+    }
+
+    abstract double calculateArea();
+
+    abstract double calculatePerimeter();
+
+}
+
+class Circle extends Shape {
+
+    private double radius;
+
+    public Circle(String title, double radius) {
+        super(title);
+        this.radius = radius;
+    }
+
+    double calculateArea() {
+        return Math.PI * radius *radius;
+    }
+
+    double calculatePerimeter() {
+        return 2 * radius *Math.PI ;
+    }
+
+}
+
+
+Лучше:
+
+abstract class Shape {
+
+    private String title;
+
+    Shape(String title) {
+        this.title = title;
+    }
+
+    abstract double calculateArea();
+
+    abstract double calculatePerimeter();
+
+}
+
+class Circle extends Shape {
+
+    private double radius;
+
+    public Circle(String title, double radius) {
+        super(title);
+        this.radius = radius;
+    }
+
+    @Override
+    double calculateArea() {
+        return Math.PI * radius *radius;
+    }
+
+    @Override
+    double calculatePerimeter() {
+        return 2 * radius *Math.PI ;
+    }
+
+}
