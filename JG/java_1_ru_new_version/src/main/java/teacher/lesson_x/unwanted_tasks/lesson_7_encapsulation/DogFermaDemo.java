@@ -1,6 +1,6 @@
-package teacher.lesson_7_encapsulation;
+package teacher.lesson_x.unwanted_tasks.lesson_7_encapsulation;
 
-import teacher.lesson_7_encapsulation.lessoncode.DogFerma;
+import teacher.lesson_x.unwanted_tasks.lesson_7_encapsulation.lessoncode.DogFerma;
 
 public class DogFermaDemo {
 

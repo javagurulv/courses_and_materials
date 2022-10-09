@@ -1,4 +1,4 @@
-package teacher.lesson_7_encapsulation.lessoncode;
+package teacher.lesson_x.unwanted_tasks.lesson_7_encapsulation.lessoncode;
 
 import teacher.lesson_8_inheritance.lessoncode.Book;
 

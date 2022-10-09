@@ -1,4 +1,4 @@
-package teacher.lesson_7_encapsulation.lessoncode;
+package teacher.lesson_x.unwanted_tasks.lesson_7_encapsulation.lessoncode;
 
 import java.util.ArrayList;
 import java.util.List;
