@@ -1,0 +1,33 @@
+После реализации метода isDividedBy5 у вас должен получиться
+следующий код:
+
+class FizzBuzz {
+
+    public String detect(int number) {
+        if (isDividedBy3(number) && isDividedBy5(number)) {
+            return "FizzBuzz";
+        } else if (isDividedBy5(number)) {
+            return "Buzz";
+        } else if (isDividedBy3(number)) {
+            return "Fizz";
+        } else {
+            return "" + number;
+        }
+    }
+
+    boolean isDividedBy3(int number) {
+        return number % 3 == 0;
+    }
+
+    boolean isDividedBy5(int number) {
+        return number % 5 == 0;
+    }
+
+}
+
+Поздравляем вас, вы решили поставленную задачу!
+
+Код в методе detect() стал более читабельным.
+Названия методов isDividedBy3 и isDividedBy5
+рассказывают, что за проверки они делают, в
+коде дублирующиеся кусочки были заменены на вызовы методов.

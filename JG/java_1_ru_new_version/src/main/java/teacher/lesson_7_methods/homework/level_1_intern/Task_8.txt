@@ -1,0 +1,22 @@
+После замены условий проверяющих деление на 3 у вас должен
+получиться следующий код:
+
+class FizzBuzz {
+
+    public String detect(int number) {
+        if (isDividedBy3(number) && (number % 5 == 0)) {
+            return "FizzBuzz";
+        } else if (number % 5 == 0) {
+            return "Buzz";
+        } else if (isDividedBy3(number)) {
+            return "Fizz";
+        } else {
+            return "" + number;
+        }
+    }
+
+    boolean isDividedBy3(int number) {
+        return number % 3 == 0;
+    }
+
+}

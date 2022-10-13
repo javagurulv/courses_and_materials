@@ -1,0 +1,28 @@
+Тесты метода isDividedBy3 из класса FizzBuzz могут выглядеть
+следующим образом:
+
+class FizzBuzzTest {
+
+    public static void main(String[] args) {
+        FizzBuzzTest test = new FizzBuzzTest();
+        test.shouldDivideBy3();
+        test.shouldNotDivideBy3();
+    }
+
+    public void shouldDivideBy3() {  // проверка позитивного сценария
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        boolean result = fizzBuzz.isDividedBy3(9);
+        System.out.println(
+            result ? "TEST divide by 3 = OK" : "TEST divide by 3 = FAIL"
+        );
+    }
+
+    public void shouldNotDivideBy3() { // проверка негативного сценария
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        boolean result = fizzBuzz.isDividedBy3(10);
+        System.out.println(
+            result == false ? "TEST not divide by 3 = OK" : "TEST not divide by 3 = FAIL"
+        );
+    }
+
+}
