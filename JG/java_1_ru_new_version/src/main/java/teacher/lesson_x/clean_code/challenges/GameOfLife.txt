@@ -1,0 +1,57 @@
+What is Conway’s Game of Life?
+
+The Game of Life is a cellular automaton created by
+John Horton Conway. A cellular automaton is a collection
+of cells on a grid that evolve based on specific steps
+relating to the states of neighbouring cells.
+The Game of Life is a very popular example of this and only
+has four basic rules, that can be further simplified down to
+two conditions.
+
+Rule 1 (Underpopulation)
+Any live cell with fewer than two live neighbours will die.
+
+Rule 2 (Survival)
+Any live cell with two or three live neighbours will live on.
+
+Rule 3 (Overpopulation)
+Any live cell with more than three live neighbours will die.
+
+Rule 4 (Reproduction)
+Any dead cell with exactly three live neighbours, will become a live cell itself.
+
+
+This can be simplified down to the following pseudocode snippet:
+
+LOOP over all cells:
+    IF this cell is alive:
+        IF it has less than 2 or more than 3 neighbours:
+            This cell is dead
+    ELSE:
+        IF it has exactly 3 neighbours:
+            This cell is alive
+
+This can obviously be even further simplified into a single IF/ELIF,
+but I have kept it simple, so it is easier to understand. The one
+thing to remember about this program is that each cell has to be
+updated at once and not one after the other. This prevents a cell
+coming to life or dying and affecting the next cell’s update.
+
+
+Conclusion
+
+Once the rules for Life have been implemented, the program would be
+useless without a way to draw cells. Therefore, there are simple
+modifications and extensions that can be made to the script to
+add to the functionality:
+
+(SIMPLE) Allow drawing/deleting cells on the grid
+(SIMPLE) Allow pausing and playing the automaton
+(MODERATE) Allow zooming and panning on a larger grid
+(MODERATE) Create presets for patterns to easily insert them
+(HARD) Make the grid infinite
+
+Useful Links:
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+https://codingdojo.org/kata/GameOfLife/
+https://playgameoflife.com/
