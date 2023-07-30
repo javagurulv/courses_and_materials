@@ -21,4 +21,4 @@ Transaction transaction1 = createDepositTransaction(10);
 Transaction transaction2 = createDepositTransaction(10, ExpenseCategory.FOOD);
 BankAccount bankAccount = new BankAccount("John", transaction1, transaction2);
 
-Маленькая но победа! Мы избавились от трёх строк кода для каждого нашего тест кейса.
+Маленькая, но победа! Мы избавились от трёх строк кода для каждого нашего тест кейса.
