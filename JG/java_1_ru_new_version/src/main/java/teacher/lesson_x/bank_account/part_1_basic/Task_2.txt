@@ -6,7 +6,7 @@
     TransactionType deposit = TransactionType.DEPOSIT;
     TransactionType withdrawal = TransactionType.WITHDRAWAL;
     TransactionType transactionType = TransactionType.WITHDRAWAL;
-- присвоение нового заначения переменной типа enum:
+- присвоение нового значения переменной типа enum:
     TransactionType transactionType = TransactionType.WITHDRAWAL;
     transactionType = TransactionType.DEPOSIT;
 - сравнение переменной типа enum:
